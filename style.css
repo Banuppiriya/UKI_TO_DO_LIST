@@ -10,7 +10,7 @@ body {
   }
   
   .todo-box {
-    background-color: white;
+    background-color: rgb(177, 175, 175);
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -79,3 +79,15 @@ body {
     font-weight: bold;
   }
   
+  #addTask {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+    #addTask input {
+        width: 100%;
+    }
+
+    
